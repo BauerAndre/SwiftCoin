@@ -11,8 +11,13 @@ struct HomeView: View {
     var body: some View {
         NavigationView{
             ScrollView(.vertical, showsIndicators: false) {
-                <#code#>
+                
+                //top movers view
+                
+                //all coins view
+                
             }
+            .navigationTitle("Live prices")
         }
     }
 }
