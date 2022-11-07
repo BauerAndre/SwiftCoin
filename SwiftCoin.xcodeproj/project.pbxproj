@@ -14,6 +14,7 @@
 		E1146C402914B7AB0011D90F /* SwiftCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1146C3F2914B7AB0011D90F /* SwiftCoinTests.swift */; };
 		E1146C4A2914B7AB0011D90F /* SwiftCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1146C492914B7AB0011D90F /* SwiftCoinUITests.swift */; };
 		E1146C4C2914B7AB0011D90F /* SwiftCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1146C4B2914B7AB0011D90F /* SwiftCoinUITestsLaunchTests.swift */; };
+		E1146C642918A0C30011D90F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1146C632918A0C30011D90F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E1146C452914B7AB0011D90F /* SwiftCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1146C492914B7AB0011D90F /* SwiftCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoinUITests.swift; sourceTree = "<group>"; };
 		E1146C4B2914B7AB0011D90F /* SwiftCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1146C632918A0C30011D90F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,11 @@
 		E1146C2D2914B7AA0011D90F /* SwiftCoin */ = {
 			isa = PBXGroup;
 			children = (
-				E1146C2E2914B7AA0011D90F /* SwiftCoinApp.swift */,
+				E1146C5F29189EE60011D90F /* Utils */,
+				E1146C5E29189EE10011D90F /* Extensions */,
+				E1146C5D29189EDE0011D90F /* Models */,
+				E1146C5C29189EDC0011D90F /* Core */,
+				E1146C5829189EC50011D90F /* App */,
 				E1146C302914B7AA0011D90F /* ContentView.swift */,
 				E1146C322914B7AB0011D90F /* Assets.xcassets */,
 				E1146C342914B7AB0011D90F /* Preview Content */,
@@ -125,6 +131,67 @@
 				E1146C4B2914B7AB0011D90F /* SwiftCoinUITestsLaunchTests.swift */,
 			);
 			path = SwiftCoinUITests;
+			sourceTree = "<group>";
+		};
+		E1146C5829189EC50011D90F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E1146C2E2914B7AA0011D90F /* SwiftCoinApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E1146C5C29189EDC0011D90F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E1146C6029189FBE0011D90F /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E1146C5D29189EDE0011D90F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E1146C5E29189EE10011D90F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E1146C5F29189EE60011D90F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E1146C6029189FBE0011D90F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E1146C622918A0500011D90F /* ViewModels */,
+				E1146C612918A02E0011D90F /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E1146C612918A02E0011D90F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1146C632918A0C30011D90F /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1146C622918A0500011D90F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1146C642918A0C30011D90F /* HomeView.swift in Sources */,
 				E1146C312914B7AA0011D90F /* ContentView.swift in Sources */,
 				E1146C2F2914B7AA0011D90F /* SwiftCoinApp.swift in Sources */,
 			);
