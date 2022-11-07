@@ -15,6 +15,8 @@
 		E1146C4A2914B7AB0011D90F /* SwiftCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1146C492914B7AB0011D90F /* SwiftCoinUITests.swift */; };
 		E1146C4C2914B7AB0011D90F /* SwiftCoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1146C4B2914B7AB0011D90F /* SwiftCoinUITestsLaunchTests.swift */; };
 		E1146C642918A0C30011D90F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1146C632918A0C30011D90F /* HomeView.swift */; };
+		E1146C662918A4640011D90F /* TopMoversView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1146C652918A4640011D90F /* TopMoversView.swift */; };
+		E1146C682918A4890011D90F /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1146C672918A4890011D90F /* TopMoversItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		E1146C492914B7AB0011D90F /* SwiftCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoinUITests.swift; sourceTree = "<group>"; };
 		E1146C4B2914B7AB0011D90F /* SwiftCoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E1146C632918A0C30011D90F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E1146C652918A4640011D90F /* TopMoversView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversView.swift; sourceTree = "<group>"; };
+		E1146C672918A4890011D90F /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				E1146C632918A0C30011D90F /* HomeView.swift */,
+				E1146C652918A4640011D90F /* TopMoversView.swift */,
+				E1146C672918A4890011D90F /* TopMoversItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -324,9 +330,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1146C662918A4640011D90F /* TopMoversView.swift in Sources */,
 				E1146C642918A0C30011D90F /* HomeView.swift in Sources */,
 				E1146C312914B7AA0011D90F /* ContentView.swift in Sources */,
 				E1146C2F2914B7AA0011D90F /* SwiftCoinApp.swift in Sources */,
+				E1146C682918A4890011D90F /* TopMoversItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
