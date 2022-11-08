@@ -9,7 +9,32 @@ import SwiftUI
 
 struct CoinRowView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            //market cap rank
+            Text("1")
+                .font(.caption)
+                .foregroundColor(.gray)
+            
+            //image
+            Image(systemName: "bitcoinsign.circle.fill")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 32, height: 32)
+                .foregroundColor(.orange)
+            
+            //coin name info
+            
+            VStack(alignment: .leading, spacing: 4){
+                Text("Bitcoin")
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+                    .padding(.leading, 4)
+            }
+            
+            //coin price info
+            
+            
+        }
     }
 }
 

@@ -18,6 +18,8 @@ struct AllCoinsView: View {
                 Spacer()
                 Text("Prices")
             }
+            .foregroundColor(.gray)
+            .font(.caption)
      
         }
     }
