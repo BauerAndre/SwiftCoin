@@ -29,12 +29,35 @@ struct CoinRowView: View {
                     .font(.subheadline)
                     .fontWeight(.semibold)
                     .padding(.leading, 4)
+                
+                Text("BTC")
+                    .font(.caption)
+                    .padding(.leading, 6)
             }
+            .padding(.leading, 2)
+            
+            Spacer()
+            
+   
             
             //coin price info
             
+            VStack(alignment: .trailing, spacing: 4){
+                Text("U$ 20.220,00")
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+                    .padding(.leading, 4)
+                
+                Text("-5.60%")
+                    .font(.caption)
+                    .padding(.leading, 6)
+                    .foregroundColor(.red)
+            }
+            .padding(.leading, 2)
             
         }
+        .padding(.horizontal)
+        .padding(.vertical, 4)
     }
 }
 
