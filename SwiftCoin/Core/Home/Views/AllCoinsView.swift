@@ -20,7 +20,15 @@ struct AllCoinsView: View {
             }
             .foregroundColor(.gray)
             .font(.caption)
-     
+            .padding(.horizontal)
+            
+            ScrollView{
+                VStack{
+                    ForEach(0 ..< 50, id: \.self) { _ in
+                        CoinRowView()
+                    }
+                }
+            }
         }
     }
 }
