@@ -19,6 +19,7 @@
 		E1146C682918A4890011D90F /* TopMoversItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1146C672918A4890011D90F /* TopMoversItemView.swift */; };
 		E1146C6A291A9A050011D90F /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1146C69291A9A050011D90F /* AllCoinsView.swift */; };
 		E1146C6C291A9A280011D90F /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1146C6B291A9A280011D90F /* CoinRowView.swift */; };
+		E1146C6E291CD27F0011D90F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1146C6D291CD27F0011D90F /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		E1146C672918A4890011D90F /* TopMoversItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoversItemView.swift; sourceTree = "<group>"; };
 		E1146C69291A9A050011D90F /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
 		E1146C6B291A9A280011D90F /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		E1146C6D291CD27F0011D90F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 		E1146C622918A0500011D90F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				E1146C6D291CD27F0011D90F /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				E1146C662918A4640011D90F /* TopMoversView.swift in Sources */,
 				E1146C6A291A9A050011D90F /* AllCoinsView.swift in Sources */,
 				E1146C642918A0C30011D90F /* HomeView.swift in Sources */,
+				E1146C6E291CD27F0011D90F /* HomeViewModel.swift in Sources */,
 				E1146C312914B7AA0011D90F /* ContentView.swift in Sources */,
 				E1146C2F2914B7AA0011D90F /* SwiftCoinApp.swift in Sources */,
 				E1146C6C291A9A280011D90F /* CoinRowView.swift in Sources */,
