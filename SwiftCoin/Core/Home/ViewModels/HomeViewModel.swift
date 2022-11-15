@@ -31,6 +31,6 @@ class HomeViewModel: ObservableObject {
             
             guard let data = data else { return }
             print("DEBUG: Data \(data)")
-        }
+        }.resume()
     }
 }
